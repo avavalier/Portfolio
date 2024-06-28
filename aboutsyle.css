@@ -1,0 +1,168 @@
+body {
+  margin: 0%;
+    background-color: #FCD2AF;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #E49B53;
+    z-index: 1000;
+    display:flex;
+    justify-content: space-evenly;
+  }
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  .nav-item {
+    float:left
+  }
+  .nav-item a {
+    display: block;
+    color: #29140a;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  .nav-item a:hover {
+    background-color: #DC7546;
+  }
+
+  .header {
+    position:relative;
+  display: block;
+  top: 17%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: #29140a; 
+  padding: 10px 20px; 
+  font-size: 54px; 
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  }
+
+  .section-container {
+    
+      display:flex;
+      justify-content:space-between;
+      max-height: 300px;
+      margin:2%;
+      margin-top: 10%;
+      
+  
+  }
+  
+  /* The code below a solid black border to section and puts space between them (the margin). */
+  .section {
+      border: 5px transparent;
+      text-align: left;
+      background-color: #D6532C;
+      margin:1%;
+      padding-left: 1%;
+      padding-right: 1%;
+      line-height: 30px;
+      flex-basis: 100%;
+      height: 400px;
+    
+  }
+
+  .section h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #29140a;
+    text-align: center;
+  }
+
+  .section p {
+    font-size: 16pt;
+    color: rgb(52, 51, 51);
+    font-family:monospace;
+    max-width: 1000px;
+  }
+
+  .innerdq,
+  .innerhawg,
+  .innerchicks,
+  .innercatapult {
+    font-size: 12pt;
+  font-family: monospace;
+  color: #D6532C;
+  }
+
+  .dq,
+  .hawg,
+  .chicks,
+  .catapult {
+    padding: none;
+    background: none;
+    text-decoration: underline;
+    border: none;
+    font-size: 14pt;
+  font-family: monospace;
+  color: #29140a;
+
+  }
+
+  .soft-skills {
+    padding-top: 20px;
+    font-size: 16pt;
+    font-family: monospace;
+    color: #29140a;
+    margin-left: 100px;
+    line-height: 50px;
+  }
+
+  .fun-facts {
+    padding-top: 20px;
+    font-size: 14pt;
+    font-family: monospace;
+    color: #29140a;
+    line-height: 35px;
+  }
+
+  footer {
+    background-color:#A1B7B4;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 20px;
+    padding-bottom: 30px;
+    align-items: center;    
+  
+    
+  }
+  .copyright {
+    text-align: left;
+    display: inline-block;
+    padding-left: 100px;
+  
+    
+    
+  }
+  
+  .author {
+     padding-left: 1000px;
+    text-align: right;
+    display: inline-block;
+  }
+  .translate-button {
+    position: fixed;
+    bottom: 0;
+    display: inline-block;
+    background-color: #E49B53;
+    color: #29140a;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+    .translate-button:hover {
+      background-color: #DC7546;
+    }
+

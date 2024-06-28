@@ -1,0 +1,121 @@
+
+body{
+  background-color: #f9f7e2;
+}
+
+.header {
+    font-size: 24pt;
+    text-align: center;
+    color: rgb(52, 51, 51);
+    background-color: #dfaaad;
+    align-content: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin: 0px;
+    border: 0px;
+    font-family:'Times New Roman', Times, serif
+    
+}
+
+    .header h1 {
+      margin-bottom: 1px;
+      margin-top: 15px;
+    }
+
+    .header a{
+        color:rgb(46, 45, 45);
+        font-size: 12pt;
+        display: inline-block;
+        margin-top: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* The code below centers the text of all h2's on the page. */
+  h2 {
+      text-align:center;
+      color: rgb(52, 51, 51);
+      font-size: 24pt;
+      font-family:'Times New Roman', Times, serif;
+    
+  }
+  
+  /* The code below aligns all the sections horizontally on the bottom. */
+  .section-container {
+    align-items: center;
+      display:flex;
+      justify-content:space-between;
+      max-height: 300px
+  }
+  
+  /* The code below a solid black border to section and puts space between them (the margin). */
+  .section {
+      border: 5px transparent;
+      text-align: left;
+      align-items: center;
+      background-color: #dfaaad;
+      margin:.5%;
+      padding-left: 1%;
+      padding-right: 1%;
+      line-height: 30px;
+    
+  }
+
+  .section p {
+    font-size: 16pt;
+    color: rgb(52, 51, 51);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1000px;
+  }
+
+  ul {
+    font-size: 16pt;
+    color: #2e2d2d;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+  }
+ 
+.brands {
+    columns: 2;
+}
+  .intro {
+    border: #dfaaad solid 3px;
+    width: auto;
+
+  }
+
+  .caption {
+    font-size: 16pt;
+    font-style: italic;
+  }
+  .stats {
+    width: 900px;
+    margin-left: 0%;
+    display: inline-block;
+  }
+  
+  .factory {
+    display: inline-block;
+    margin-top: 0%;
+    height: 395px;
+    width: 580px
+    
+  }
+
+  h4 {
+    text-align: right;
+    margin-top: 0%;
+    margin-right: 33px;
+    font-size: 10pt;
+    color: rgb(52, 51, 51);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+  }
+
+  
