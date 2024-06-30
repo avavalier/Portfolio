@@ -1,4 +1,3 @@
-let aboutButton = document.querySelector(".about-button")
 let dq = document.querySelector(".dq")
 let hawg = document.querySelector(".hawg")
 let chicks = document.querySelector(".chicks")
@@ -66,3 +65,4 @@ catapult.addEventListener("mouseleave", function() {
     
     
 })
+

@@ -90,7 +90,10 @@ body {
     font-family:monospace;
     max-width: 1000px;
   }
-
+  .span-innerdq,
+  .span-innerhawg,
+  .span-innerchicks,
+  .span-innercatapult,
   .innerdq,
   .innerhawg,
   .innerchicks,
@@ -100,6 +103,10 @@ body {
   color: #D6532C;
   }
 
+  .span-dq,
+  .span-hawg,
+  .span-chicks,
+  .span-catapult,
   .dq,
   .hawg,
   .chicks,
